@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  background-color: #f5eee6; /* Beige background */
+}
+
+/* Header Section */
+.header {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #4a148c;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+.name {
+  font-size: 1.8em;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+}
+
+.role {
+  color: #666;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4a148c;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  color: #6a1b9a;
+}
+
+/* Section Header */
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+
+.purple-square {
+  width: 15px; /* Size of the square */
+  height: 20px;
+  background-color: #4a148c; /* Purple color */
+  margin-right: 10px; /* Space between square and text */
+  flex-shrink: 0; /* Prevent resizing */
+}
+
+.section-header h2 {
+  font-size: 2em; /* Adjust the font size (increase it here) */
+  color: black;
+  font-family: 'Roboto Slab', serif; /* Font family */
+  font-weight: bold; /* Make the text bold */
+  margin: 0; /* Remove extra margin */
+  text-align: center; /* Ensure the text aligns properly */
+}
+
+/* Section Description */
+.section-description {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Collage Section */
+.collage-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.collage-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 2px solid #4a148c;
+}
+
+.footer p {
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: #666;
+}
